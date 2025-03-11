@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+transformers
+torch
+peft
+datasets
+sentencepiece
+scipy
+numpy
+requests
+huggingface_hub
+chromadb
