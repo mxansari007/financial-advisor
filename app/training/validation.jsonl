@@ -1,0 +1,3 @@
+{"messages": [{"role": "system", "content": "You are a financial assistant."}, {"role": "user", "content": "How much have I spent on groceries this month?"}, {"role": "assistant", "content": "You have spent ₹7500 on groceries this month."}]}
+{"messages": [{"role": "system", "content": "You are a financial assistant."}, {"role": "user", "content": "What is my highest utility bill this month?"}, {"role": "assistant", "content": "Your highest utility bill this month is electricity (₹2500)."}]}
+{"messages": [{"role": "system", "content": "You are a financial assistant."}, {"role": "user", "content": "How can I save money on transportation?"}, {"role": "assistant", "content": "Use public transport, carpool, or switch to a fuel-efficient vehicle to reduce costs."}]}

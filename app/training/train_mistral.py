@@ -6,7 +6,7 @@ from datasets import load_dataset
 dataset = load_dataset("json", data_files={"train": "train.jsonl"})  # Load your dataset from train.jsonl
 
 # Step 2: Load Model & Tokenizer
-model_name = "mistralai/Mistral-7B-Instruct-v0.3"
+model_name = "microsoft/phi-1_5"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto")  # Removed load_in_8bit
 
@@ -47,5 +47,5 @@ trainer = Trainer(
 trainer.train()
 
 
-model.save_pretrained("./mistral_finetuned")
-tokenizer.save_pretrained("./mistral_finetuned")
+model.save_pretrained("./phi_finetuned")
+tokenizer.save_pretrained("./phi_finetuned")
